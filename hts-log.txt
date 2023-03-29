@@ -1,0 +1,40 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 08 Mar 2023 22:56:40 at http://trustedsound.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://trustedsound.com -O1 "C:\src\legacy\websites\avtext" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:58:15	Error: 	"Not Found" (404) at link trustedsound.com/mission.html (from trustedsound.com/)
+22:58:16	Error: 	"Not Found" (404) at link trustedsound.com/rw_common/themes/alpha/images/sidebar_bg.png (from trustedsound.com/rw_common/themes/alpha/print.css)
+22:58:16	Error: 	"Not Found" (404) at link trustedsound.com/futures/overview.html (from trustedsound.com/overview.html)
+22:58:26	Error: 	"Not Found" (404) at link trustedsound.com/digital-av-sdk/sdk-overview.html (from trustedsound.com/digital-av-sdk/)
+22:58:27	Error: 	"Not Found" (404) at link trustedsound.com/digital-av-sdk/sdk-show-License.html (from trustedsound.com/digital-av-sdk/)
+22:58:28	Error: 	"Not Found" (404) at link trustedsound.com/home.html (from trustedsound.com/SDK/AV-Sample.html)
+22:59:16	Error: 	"Not Found" (404) at link trustedsound.com/perspective.html (from trustedsound.com/SDK/AV-Sample.html)
+23:00:30	Error: 	"Not Found" (404) at link trustedsound.com/digital-av-sdk/Digital-AV.pdf (from trustedsound.com/digital-av-sdk/sdk-document.html)
+23:00:30	Error: 	"Not Found" (404) at link trustedsound.com/digital-av-sdk/Digital-AV-X07.pdf (from trustedsound.com/digital-av-sdk/sdk-document-x07.html)
+23:00:30	Error: 	"Not Found" (404) at link trustedsound.com/digital-av-sdk/AV-Part-of-Speech.pdf (from trustedsound.com/digital-av-sdk/sdk-show-pos.html)
+23:00:30	Warning: 	Retry after error -5 (Unable to get server's address: This is usually a temporary error during hostnam) at link avtext.org/SDK/AV-Stylesheet.css (from trustedsound.com/digital-av-sdk/sdk-show-golang-stylesheet.html)
+23:00:30	Error: 	"Not Found" (404) at link trustedsound.com/digital-av-sdk/AV-Stylesheet.css (from trustedsound.com/digital-av-sdk/sdk-show-golang-stylesheet.html)
+23:00:30	Error: 	"Not Found" (404) at link trustedsound.com/digital-av-sdk/AV-Writ.txt (from trustedsound.com/digital-av-sdk/sdk-show-writ.html)
+23:00:30	Error: 	"Not Found" (404) at link trustedsound.com/digital-av-sdk/AV-Lexicon.txt (from trustedsound.com/digital-av-sdk/sdk-show-lexicon.html)
+23:00:30	Error: 	"Not Found" (404) at link trustedsound.com/digital-av-sdk/AVX-POS.txt (from trustedsound.com/digital-av-sdk/sdk-show-posx.html)
+23:01:00	Warning: 	File not parsed, looks like binary: trustedsound.com/SDK/AV-Writ.DX8
+23:01:00	Warning: 	File not parsed, looks like binary: trustedsound.com/SDK/AV-Writ.DX3
+23:01:00	Warning: 	File not parsed, looks like binary: trustedsound.com/SDK/AV-Writ.DX2
+23:01:00	Warning: 	File not parsed, looks like binary: trustedsound.com/SDK/AV-Book.IX4
+23:01:00	Warning: 	File not parsed, looks like binary: trustedsound.com/SDK/AV-Chapter.IX4
+23:01:00	Error: 	"Not Found" (404) at link trustedsound.com/SDK/AV-Lemma.VLT (from trustedsound.com/SDK/index.html)
+23:01:00	Warning: 	File not parsed, looks like binary: trustedsound.com/SDK/AVX-Lexicon.VLT
+23:01:01	Warning: 	File not parsed, looks like binary: trustedsound.com/SDK/AVX-Lexicon.DB
+23:01:36	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link avtext.org/SDK/AV-Stylesheet.css (from trustedsound.com/digital-av-sdk/sdk-show-golang-stylesheet.html)
+23:02:30	Error: 	"Not Found" (404) at link trustedsound.com/SDK/clarity.fld/filelist.xml (from trustedsound.com/SDK/sis.html)
+23:02:30	Error: 	"Not Found" (404) at link trustedsound.com/SDK/clarity.fld/themedata.thmx (from trustedsound.com/SDK/sis.html)
+23:02:30	Error: 	"Not Found" (404) at link trustedsound.com/SDK/clarity.fld/colorschememapping.xml (from trustedsound.com/SDK/sis.html)
+23:02:30	Error: 	"Not Found" (404) at link trustedsound.com/SDK/clarity.fld/header.html (from trustedsound.com/SDK/sis.html)
+23:02:30	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link avtext.org/SDK/AV-Stylesheet.css (from trustedsound.com/digital-av-sdk/sdk-show-golang-stylesheet.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 49 seconds : 119 links scanned, 96 files written (48546457 bytes overall) [48395795 bytes received at 138669 bytes/sec], 581457 bytes transferred using HTTP compression in 46 files, ratio 29%, 4.2 requests per connection
+(20 errors, 9 warnings, 0 messages)

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from trustedsound.com/digital-av-sdk/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Mar 2023 03:58:16 GMT -->
+<head>
+        <meta charset="UTF-8">
+        <title>Digital-AV Software Development Kit</title>
+        <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="HTML-KickStart/js/kickstart.js"></script>         
+        <!-- KICKSTART -->
+        <link rel="stylesheet" href="HTML-KickStart/css/kickstart.css" media="all"/> 
+        <!-- KICKSTART -->
+        <link rel="icon" href="http://www.avtext.org/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="http://www.avtext.org/favicon.ico" type="image/x-icon"/>
+        <style>
+        .filesharing-item{
+            font-family: "Calibri", sans-serif;
+            font-color: white;
+            color: silver;
+        }
+        .filesharing-item-title{
+            font-size: 24px;
+            padding-left: 25px;
+            padding-top: 12px;
+            color: white;
+
+        }
+        .filesharing-item-description{
+            font-size: 20px;
+            padding-left: 40px;
+            padding-top: 3px;
+            color: silver;
+        }
+        a:link{
+            font-color: cyan;
+            font-style: normal;
+            text-decoration: none;
+        }
+        a:visited{
+            font-color: cyan;
+            font-style: normal;
+            text-decoration: none;
+        }
+        a:hover{
+            font-color: lightcyan;
+            font-style: normal;
+            text-decoration: underline;
+        }
+        a:active{
+            font-color: lightcyan;
+            font-style: normal;
+            text-decoration: underline;
+        }
+    </style>
+    </head>
+    <body style="background: #333333;">
+        <ul class="menu" style="background: #333333;">
+            <li>
+                <a href="sdk-overview.html">SDK Overview</a>
+            </li>
+            <li class="current">
+                <a href="sdk-contents.html">Contents</a>
+            </li>
+            <li>
+                <a href="sdk-document.html">Details</a>
+            </li>
+        </ul>
+        <br/>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                <a href="sdk-document.html">Documentation</a>
+            </div>
+            <div class="filesharing-item-description">
+                The Digital AV Software Development Kit (SDK) - 2018 Edition
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                <a href="sdk-document-x07.html">Coming Soon</a>
+            </div>
+            <div class="filesharing-item-description">
+                Sneak peak at the documentation for 2020 Edition of the SDK
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                <a href="sdk-show-pos.html">Part-of-Speech</a>
+            </div>
+            <div class="filesharing-item-description">
+                Detailed explanation of how POS tags are defined in the SDK
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                <a href="sdk-show-License.html">AV-License.txt</a>
+            </div>
+            <div class="filesharing-item-description">
+                Permissive MIT-style open-source license for all artifacts
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                <a href="sdk-show-golang.html">AV-Text.go</a>
+            </div>
+            <div class="filesharing-item-description">
+                Source code example of a webserver in Go: serves AV text by chapter
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                <a href="sdk-show-golang-stylesheet.html">AV-Stylesheet.css</a>
+            </div>
+            <div class="filesharing-item-description">
+                Default stylesheet for chapter text in avtext.go
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                <a href="sdk-show-writ.html">AV-Writ.ascii</a>
+            </div>
+            <div class="filesharing-item-description">
+                Text file representing the entire AV bible (illustrates binary formats using ASCII text)
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                AV-Writ.DX8
+                <a href="http://avtext.org/SDK/AV-Writ.DX8">download</a>
+                <span class="filesharing-item">or see</span>
+                <a href="sdk-document.html">documentation</a>
+            </div>
+            <div class="filesharing-item-description">
+                The DX8 extent identifies the most complete binary data of the AV bible.  It contains details of every word, including part-of-speech, Strong's numbers, and an inline index to AV-Chapter
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                AV-Writ.DX3
+                <a href="http://avtext.org/SDK/AV-Writ.DX3">download</a>
+                <span class="filesharing-item">or see</span>
+                <a href="sdk-document.html">documentation</a>
+            </div>
+            <div class="filesharing-item-description">
+                The DX3 extent identifies a more compact binary data representation of the AV bible. Along with every word, it also includes part-of-speech.
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                AV-Writ.DX2
+                <a href="http://avtext.org/SDK/AV-Writ.DX2">download</a>
+                <span class="filesharing-item">or see</span>
+                <a href="sdk-document.html">documentation</a>
+            </div>
+            <div class="filesharing-item-description">
+                The DX2 extent identifies the most compact binary data representation of AV bible text.
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                AV-Book.IX4
+                <a href="http://avtext.org/SDK/AV-Book.IX4">download</a>
+                <span class="filesharing-item">or see</span>
+                <a href="sdk-document.html">documentation</a>
+            </div>
+            <div class="filesharing-item-description">
+                Index file for bible books
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                AV-Chapter.IX4
+                <a href="http://avtext.org/SDK/AV-Chapter.IX4">download</a>
+                <span class="filesharing-item">or see</span>
+                <a href="sdk-document.html">documentation</a>
+            </div>
+            <div class="filesharing-item-description">
+                Index file for bible chapters
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                AV-Lemma.VLT
+                <a href="http://avtext.org/SDK/AV-Lemma.VLT">download</a>
+                <span class="filesharing-item">or see</span>
+                <a href="sdk-document.html">documentation</a>
+            </div>
+            <div class="filesharing-item-description">
+                Lemma [root word forms] associated with lexical entries
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                AV-Lexicon.VLT
+                <a href="http://avtext.org/SDK/AV-Lexicon.VLT">download</a>
+                <span class="filesharing-item">or see</span>
+                <a href="sdk-document.html">documentation</a>
+            </div>
+            <div class="filesharing-item-description">
+                Lexicon for AV-Text data as variable-length binary records
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                AVX-Lexicon.VLT
+                <a href="http://avtext.org/SDK/AVX-Lexicon.VLT">download</a>
+                <span class="filesharing-item">or see</span>
+                <a href="sdk-document.html">documentation</a>
+            </div>
+            <div class="filesharing-item-description">
+                Alternate lexicon with additional lexical entries
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                AVX-Lexicon.DB
+                <a href="http://avtext.org/SDK/AVX-Lexicon.DB">download</a>
+                <span class="filesharing-item">or see</span>
+                <a href="sdk-document.html">documentation</a>
+            </div>
+            <div class="filesharing-item-description">
+                Another alternate lexicon, implemented as an Sqlite database
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                <a href="sdk-show-lexicon.html">AV-Lexicon.acsii</a>
+            </div>
+            <div class="filesharing-item-description">
+                ASCII representation of the AV Lexicon
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                <a href="sdk-show-posx.html">AVX-POS.ascii</a>
+            </div>
+            <div class="filesharing-item-description">
+                Part-of-Speech tagging per verse
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                <a href="sdk-show-bom.html">AV-Inventory.bom</a>
+            </div>
+            <div class="filesharing-item-description">
+                Text file that identifies each file of the SDK by MD5
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                <a href="https://github.com/kwonus/Quelle/blob/master/Quelle.md">Quelle HMI</a>
+            </div>
+            <div class="filesharing-item-description">
+                Open & Extensible command syntax (Specification Version 1.0.17.316)
+</div>
+        </div>
+        <div class="filesharing-item">
+            <div class="filesharing-item-title">
+                <a href="https://github.com/kwonus/Digital-AV/tree/master/legacy/2011">Legacy 2011 SDK</a>
+            </div>
+            <div class="filesharing-item-description">
+                AV-SDK-2011 is still available
+</div>
+        </div>
+    </body>
+</body>
