@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-trustedsound.com	TRUE	/	FALSE	1999999999	PHPSESSID	43aa6956478c5523413f151ef01831c8
-
